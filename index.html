@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>NFT</title>
+</head>
+    <body>
+    <header class="header">
+</header>
+<div class="wrapper">
+    <div class="form">
+        <form action="#" id="form" class="form__body ">
+            <h1 class="form__title">Sending the form to the post office</h1>
+            <div class="form__item">
+                <label for="formName" class="form__label">Name*:</label>
+                <input id="formName" class="form__input _req" name="name" type="text">
+            </div>
+            <div class="form__item">
+                <label for="formEmail" class="form__label">E-mail*:</label>
+                <input id="forEmail" name="email" class="form__input _req _email" type="text">
+            </div>
+            <div class="form__item">
+                <div class="form__label">Left or right?</div>
+                <div class="options">
+                    <div class="options__item">
+                        <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
+                        <label for="formRightHanded" class="options__label"> <span>Right</span> </label>
+                    </div>
+                    <div class="options__item">
+                        <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                        <label for="formLeftHanded" class="options__label"> <span>Left</span> </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form__item">
+                <label for="formMessage" class="form__label">Message:</label>
+                <textarea name="message" id="formMessage" class="form__input"></textarea>
+            </div>
+            <div class="form__item">
+                <div class="form__label">Age:</div>
+                <select name="age" class="select">
+                    <option value="from 18-25" selected>Young</option>
+                    <option value="from 25-45">Old</option>
+                    <option value="from 45">Super star</option>
+                </select>
+            </div> 
+            <div class="form__item">
+                <div class="form__label">Attach photo</div>
+                <div class="file">
+                    <div class="file__item">
+                        <input id="formImage" type="file" accept=".jpg .png .gif" name="image" class="file__input">
+                        <div class="file__button">To choose </div>
+                    </div>
+                    <div id="formPreview" class="file__preview "></div>
+                </div>
+            </div>
+            <div class="form__item ">
+                <div class="checkbox">
+                    <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input _req">
+                    <label for="formAgreement"   class="checkbox__label"> <span>I hereby give my consent to the processing of personal data</span> </label>
+                </div>
+            </div>
+            <button type="submit" class="form__button">Send</button>
+        </form>
+    </div>
+</div>
+
+<!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+        
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        
+<!-- <script src="js/slick.min.js"></script> -->
+
+<script src="js/app.min.js" ></script>
+<footer class="footer">
+  
+</footer>
+    </body>
+</html>
